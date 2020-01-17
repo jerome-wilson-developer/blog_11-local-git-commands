@@ -1,4 +1,4 @@
-# Blog-Post, Web Accessibility: 
+# Blog-Post: Web Accessibility 
 ## The who, What, When, Where, Why and How
 
 ## What is Web Accessibility and Why is it Important?
