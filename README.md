@@ -1,5 +1,5 @@
 # Blog-Post: Web Accessibility 
-## The who, What, When, Where, Why and How
+### The who, What, When, Where, Why and How
 
 ## What is Web Accessibility and Why is it Important?
 The simple answer for Web Accessibility is that all internet content should be built in a way that allows everybody to physically and mentally use it. The simple reason for Web Accessibility is that the web content is vital and critical to maintaining people's everyday lives! In today's world, the internet is a fountain of life-sustaining information that everybody drinks from in order to survive. 
