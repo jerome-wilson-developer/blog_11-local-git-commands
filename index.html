@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf=8">
+    <title>
+        Web Accessibility blog post</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/main.css">
+    
+    <style>
+        h1, h2{
+            /* color:#801B47; bg-color lavender */
+            color:#ff00ff;
+            margin:0px;
+            padding:0px;
+            font-size:2.4rem;
+        }
+        .para-title{
+            margin:0px;
+            color:#0000ff;
+            margin-top:5px;
+            font-size:1.2rem;
+        }
+        .last-para{
+            margin-bottom:30px;
+        }
+        p{
+            color:#292929;
+            margin-top:10px;
+            margin-bottom:10px;
+            font-size:1.2rem;
+            font-weight:100;
+        }
+        header{ 
+            margin-top:5px;
+            padding:20px;
+            display:flex;
+        }
+        a{
+            color:#0000ff;
+            text-decoration:none;
+        }
+        header .logo{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size:1.2rem;
+            font-weight:600;
+            display: flex;
+            text-transform:uppercase;
+            color:blue;
+            background-color:white;
+            padding:8px 10px;
+            font-size:1.0rem;
+        }
+        header .logo .name{
+            background: blue;
+            padding: 12px 15px;
+            text-decoration: none;
+            color: white;
+            font-size:1.5rem;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        main{
+            font-family:Arial, Helvetica, sans-serif; 
+            font-size:16px; 
+            padding:20px; 
+            font-weight:100;
+            /* width:0 90%; */
+        }
+        .section-middle{ 
+            margin:0px; 
+            padding:20px 20px; 
+            margin-top:50px; 
+            margin-bottom:20px;
+        }
+        .section{
+            padding:30px; 
+            border:1px solid #494949; 
+            border-radius:10px; 
+            margin-top:50px; 
+            margin-bottom:50px; 
+            background-color:mintcream;
+        }
+        img{
+            margin-top:30px;
+            margin-bottom:30px;
+        }
+        
+                /* Tablet View */
+            @media all and (min-width: 768px) and (max-width: 959px){
+            header{
+                width:100%;
+            }
+            main{
+                width:100%;
+            }
+            section{
+                width:100%;
+            }
+            h1{
+                width:100%;
+            }
+            .para-title{
+                width:100%;
+            }
+            .last-para{
+                width:100%;
+            }
+            p{
+                width:100%;
+            }
+            img{
+                width:100%;
+            }
+        }
+            /* Smartphone View */
+            @media all and (max-width: 767px){
+            header{
+                width:100%;
+            }
+            main{
+                width:100%;
+            }
+            section{
+                width:100%;
+            }
+            h1{
+                width:100%;
+            }
+            .para-title{
+                width:100%;
+            }
+            .last-para{
+                width:100%;
+            }
+            p{
+                width:100%;
+            }
+            img{
+                width:100%;
+            }
+        }     
+    </style>
+</head>
+
+
+<body>
+    <!-- begin row for nav-menu-section -->
+    <header>
+        <div class="logo" style="display:flex; flex-direction:column;
+        border:1px solid white;">
+            <a href="https://resume-jerome-wilson-developer.netlify.com/" 
+            class="name"
+            style="text-align:center;">
+                J W
+            </a>
+        <p style="margin:0px; border: 1px solid blue; font-weight: lighter;">
+                Web Dev
+        </p>
+        </div>
+    </header>
+    <!-- end row for nav-menu-section --> 
+    <!-- begin blog container ... what is web accessibility -->
+    
+    <!-- begin row for main section -->
+    <main style="font-family:Arial, Helvetica, sans-serif; font-size:16px; padding:20px; 
+    font-weight:100;">
+    <!-- begin blog details -->
+        <h1 style="font-size:2.4rem;">Let's talk Web Accessibility</h1>
+        <p class="para-title">
+            The Who, What, When, Where, and Why
+        </p>
+        <!-- begin section-1 ... what is web accessibility -->
+        <section style="padding:30px; border:1px solid #494949; 
+        border-radius:10px; margin-top:50px; margin-bottom:50px; 
+        background-color:mintcream;">
+            <h2 class="paragraph-title-blog">
+                What is Web Accessibility and Why is it Important ??
+            </h2>
+            <p class="para-title">
+                In plain english ... What is Web Accessibility?
+            </p>
+            <p>
+            The simple answer for Web Accessibility is that all internet content should be built in a way that allows everybody to physically and mentally use it. The simple reason for Web Accessibility is that the web content is vital and critical to maintaining people's everyday lives! In today's world, the internet is a fountain of life-sustaining information that everybody drinks from in order to survive. 
+            </p>
+            <p>
+            This blog post is my first article, of many to come, which will document the progress of who, what, where, why and when this huge unprecedented problem will be resolved ..... or not resolved! This blog series is my way of addressing a new and growing problem inside the old "information-digital-divide". This series is my humble attempt to become somewhat of an authority on an issue that sincerely humbles me. 
+        </p>
+            <!-- https://www.w3schools.com/html/html_youtube.asp
+            <video width="320" height="240" controls>
+                <source src="movie.mp4" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg">
+              Your browser does not support the video tag.
+              </video> -->
+            <div style="text-align:center;">                
+              <img src="/images/ACCESS-101-1000X800.jpg"
+              width="35%" height="50%" 
+              alt="image-text says accessibility 101"
+              style="margin-top:30px; margin-bottom:30px;"/>
+            </div>
+            <p class="para-title">
+                In plain english ... Why is Web Accessibility Important ??
+            </p>
+            <p>
+            Let's first explain the basics of what it is and why it keeps being discussed. Web Accessibility increases everyone's ability to have access to important information and critical data needed to manage their day to day activities. Unfortunately, many people are not able to physically search and retrieve content because of the way the software programs have been built. 
+            </p>
+            <p class="last-para">
+            Today, we are in New Times and New Waters with aids like screen readers and other assistive technologies. Some of the <span><a href="#">physical and mental disabilities</a></span> that people live with are blindness/braille, sign language, deaf/hearing impaired, mental cognitive disabilities, and media in the form of print, visual, or audio that is difficult to access.
+            </p>
+            <p class="para-title">
+                In plain english ... Who is most effected by Web Accessibility ??
+            </p>
+            <p style="padding-left:100px; padding-right:100px;">
+            Most of us socialize around somebody who lives with handicaps or disabilities. However, many people who do not fit the common profiles still have <span><a href="#">similar internet access difficuties</a></span> because of physical injuries, mental injuries, illnesses, car accidents, strokes, heart attacks, diseases, arthritis, wrist/hand/arm impairments, visual or audio injuries, etc.
+            </p>
+            <p style="padding-left:100px; padding-right:100px; margin-bottom:30px;">
+                Its a Brave New World out here folks! In a split second, anything can happen to any of us, at any time to disable or handicap your ability to access vital and critical web content.
+            </p>
+            <div style="text-align:center;">
+                <img src="/images/FOUR-DIABILITIES-1000X260.png"
+              width="" height="" alt="4 images of disabilities"
+              style="width:70%; margin-bottom:20px;
+              margin-top:20px;"/>
+            </div>            
+        </section>
+        <!-- end blog details -->
+        <!-- end section-1 ... what is web accessibility -->
+        <!-- begin section-2 ... lawsuits and spending power -->
+        <section class="section-middle">
+            <h2 class="paragraph-title-blog">
+                1) 1 billion handicapped ..... 2) ADA Lawsuits ..... 3) A Business Case for Web Accessibility
+            </h2>
+            <p class="para-title">
+                The Pros and Cons
+            </p>            
+            <p class="para-title">
+                1) Over 1 billion people are handicapped and disabled, worldwide
+            </p>
+            <p>
+                Believe it or not, between the 
+                <span><a href="https://www.worldbank.org/en/topic/disability">
+                    World Bank.org
+                </a></span> , 
+                <span><a href="https://www.w3.org/WAI/business-case/">
+                    the W3.org
+                </a></span>
+                    , and, the 
+                <span><a href="https://www.who.int/news-room/fact-sheets/detail/disability-and-health">
+                    World Health Organization.org
+                </a></span>
+                , it is estimated that 15% to 20% of this planet, or, over 1 billion people, have handicaps or disabilities that significantly limit their access to critical information and data from the internet which is needed to guide and operate their daily lives.                  
+            </p> 
+            <div style="text-align:center;">
+                <img src="/images/FIVE-DISABILITIES-750X284.png"
+              width="60%" height="" 
+              alt="5 images of disabilities"
+              style="margin-top:30px; margin-bottom:30px;"/>
+            </div>
+            
+            <p class="para-title" style="text-align:left; margin-left:100px;">
+                2) ADA Web Accessibility Lawsuits against businesses
+            </p>
+            <p style="text-align:left; margin-left:100px;">
+                Lawsuit filings are rapidly increasing because much information and data on the web is actually life-sustaining and vital to the daily maintence of people's lives. Beyonce was <span><a href="https://www.theguardian.com/music/2019/jan/04/beyonce-parkwood-entertainment-sued-over-website-accessibility">recently sued over her website</a></span> because it alledgedly violated ADA regulations. It seems nowadays that information and data is so important, by so many people, that accessibility lawsuits are becoming more commonplace in the corporate world. In 2018, there were over 1000 lawsuits filed related to web accessibility, according to the <span><a href="https://www.boia.org/blog/2018s-flood-of-accessibility-lawsuits">BOIA.org</a></span>.
+            </p>
+            <p style="text-align:left; margin-left:100px;
+            margin-bottom:30px;">
+                Some of the industries being sued include clothing and apparel, telecommunications, restaurants, consumer goods, and e-commerce. Some blame the US Department of Justice for lack of clear guidelines on web access compliance. The US <span><a href="https://www.justice.gov/crt/enforcing-ada">DOJ is responsible for compliance</a></span>. The DOJ is responsible for compliance of the Americans with Disabilities Act signed into law on July 26, 1990, by then President George HW Bush.
+            </p>            
+            <p class="para-title">
+                3) A Profitable Business Case for Web Accessibility
+            </p> 
+            <p>
+                A mind-boggling paradox for this entire issue of lack of sufficient web accessibility is the business case some are making that supports improving web accessibility. The narrative for that business case says it is estimated that 1 billion people with various disabilities and handicaps ironically represent over <span><a href="https://www.w3.org/WAI/business-case/">6 trillion dollars</a></span> in spending power. That narrative, if true, is a huge deal-breaker for any company, large or small, who is ignoring or sitting on the sidelines of this problem.
+            </p>
+            <p class="last-para">
+                This is a window of opportunity for some companies, corporations, government agencies, and global ngo's to eliminate this "lack of web access problem". In turn, the winners and problem solvers will acquire many life-long loyal customers who appreciate that you solved a "very good problem" by enabling them to release $6 trillion dollars of spending power.  
+            </p>
+        </section>
+        <!-- end section-2 ... lawsuits and spending power --> 
+        <!-- begin section-3 ... failures found on 97.8% of 1 million homepages -->
+        <section style="padding:20px 20px 20px 20px; 
+        border:1px solid #595959; border-radius:10px; 
+        background-color:mintcream; margin-bottom:100px;">
+            <h2>
+                What are the Reasons for Poor and Inadequate Web Accessibility
+            </h2>            
+            <p class="para-title">
+                Web Access Problems awaiting Problem-Solvers
+            </p>
+            <div>                
+                <img src="/images/ADA-CHECKLIST-1014X487.jpg"
+                width="500" height="" 
+                alt="ada checklist for compliance" style="margin-top:30px; margin-bottom:30px; ">
+            </div>
+            <div> 
+                <p>
+                    WebAIM did a survey of the homepage of the top 1 million websites, worldwide. It is discussed in the <span><a href="#">WebAIM Million report</a></span>. 97.8% of the home pages had detectable <span><a href="#">WCAG-2 failures</a></span>. 5 of 6 pages were due to <span><a href="#">improper HTML code</a></span> for Accessibility. By the way, the automated tool used is only capable detecting a portion of a actual accessibility issues and errors.
+                </p>
+                <p>
+                    Web developers who are serious about web accessibility can be members of "<span><a href="#">Teach Accessibility</a></span>" and learn more about Web Accessibility from them with their <span><a href="#">Web Accessibility Tutorial</a></span>. It is compiled by a group of tech companies. Some of the companies are Apple, Google, LinkedIn, Adobe, and Microsoft.
+                </p>
+                <p>
+                    The 
+                    <span>
+                        <a href="#">
+                            Office of Disability Employment Policy                        
+                        </a>
+                    </span> 
+                    (US Department of Labor) has a partnership with "Teach" and also funds a program called 
+                    <span>
+                        <a href="#">
+                            PEAT
+                        </a>
+                    </span> (Partnership on Employment and Accessible Technology).  
+                </p> 
+            </div>                        
+        </section> 
+    </main>
+    
+    <!-- end blog container ... what is web accessibility -->
+</body>
+</html>
