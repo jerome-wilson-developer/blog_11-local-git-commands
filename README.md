@@ -2,7 +2,8 @@
 ## The who, What, When, Where, Why and How
 
 ## What is Web Accessibility and Why is it Important?
-The goal of this blog-post is to .........
+The simple answer for Web Accessibility is that all internet content should be built in a way that allows everybody to physically and mentally use it. The simple reason for Web Accessibility is that the web content is vital and critical to maintaining people's everyday lives! In today's world, the internet is a fountain of life-sustaining information that everybody drinks from in order to survive. 
+This blog post is my first article, of many to come, which will document the progress of who, what, where, why and when this huge unprecedented problem will be resolved ..... or not resolved! This blog series is my way of addressing a new and growing problem inside the old "information-digital-divide". This series is my humble attempt to become somewhat of an authority on an issue that sincerely humbles me. 
 
 ## TECHNOLOGIES USED:
 html5, css3, mobile responsive, npm, webpack, web accessibility, 
@@ -27,4 +28,4 @@ have difficulties using web content because of different disabilities.
 https:/
 
 ## Netlify link:
-https://blog-post-web-accessibility.netlify.com/
+https://blog-accessibility.netlify.com/
