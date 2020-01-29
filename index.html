@@ -9,156 +9,376 @@
     <link rel="stylesheet" href="../css/main.css">
     
     <style>
-        h1{
-            /* color:#801B47; bg-color lavender */
-            color:#ff00ff;
-            margin:0px;
-            padding:0px;
-            font-size:2.4rem;
-            font-family: sans-serif, 'Franklin Gothic Medium', Arial, 'Arial Narrow';
-        }
-        h2{
-            /* color:#801B47; bg-color lavender */
-            color:#ff00ff;
-            margin:0px;
-            padding:0px;
-            font-size:1.5rem;
-            margin-left:60px;
-            font-family: sans-serif, 'Franklin Gothic Medium', Arial, 'Arial Narrow';
-        }
-        p{
-            color:#292929;
-            margin-top:10px;
-            margin-bottom:10px;
-            font-size:1.3rem;
-            /* font-weight:100; */
-            padding-right:30px;
-            padding-left:60px;
-            font-family: sans-serif, 'Franklin Gothic Medium', Arial, 'Arial Narrow';
-        }
-        .para-title{
-            margin:0px;
-            color:#0000ff;
-            margin-top:5px;
-            font-size:1.4rem;
-            font-weight:500;
-        }
-        .first-para{
-            margin-top:0px;
-        }
-        .last-para{
-            margin-bottom:30px;
-        }
-        header{ 
-            margin-top:5px;
-            padding:20px;
-            display:flex;
-        }
-        a{
-            color:#0000ff;
-            text-decoration:none;
-        }
-        header .logo{
-            font-family: Arial, Helvetica, sans-serif;
-            font-size:1.2rem;
-            font-weight:600;
-            display: flex;
-            text-transform:uppercase;
-            color:blue;
-            background-color:white;
-            padding:8px 10px;
-            font-size:1.0rem;
+        body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif, 'Franklin Gothic Medium', Arial, 'Arial Narrow';
+}
+
+main {
+    font-family: sans-serif, 'Franklin Gothic Medium', Arial, 'Arial Narrow';
+    font-size: 14px;
+    padding: 20px;
+}
+
+header .logo {
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+}
+
+header .logo .name {
+    background: blue;
+    padding: 5px 5px 7px 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 2.0rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+header .logo p {
+    background: lightskyblue;
+    text-decoration: none;
+    color: #0000ff;
+    font-size: 1.2rem;
+    border: 1px solid #0000ff;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 300;
+    padding: 5px 5px;
+    margin-top: 0px;
+}
+
+h1 {
+    color: #ff00ff;
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.7rem;
+}
+
+h2 {
+    color: #ff00ff;
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.1rem;
+}
+
+img {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    width: 70%;
+    /* margin-top:10px; */
+    /* margin-bottom:10px; */
+}
+
+header {
+    margin-top: 5px;
+    padding: 20px;
+    display: flex;
+}
+
+.para-title {
+    margin: 0px;
+    padding: 0px;
+    color: #0000ff;
+    font-size: 1.0rem;
+    margin-bottom: 5px;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+    color: #393939;
+    font-size: 1.0rem;
+    margin-bottom: 10px;
+    padding-right: 150px;
+    line-height: 1.0;
+}
+
+.para-last {
+    margin-bottom: 30px;
+}
+
+a {
+    color: #0000ff;
+    text-decoration: none;
+}
+
+.section-1 {
+    padding: 10px;
+    border: 1px solid #494949;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #E6E6FA;
+}
+
+.section-2 {
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.section-3 {
+    padding: 10px;
+    border: 1px solid #494949;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: mintcream;
+}
+
+
+/* Tablet View */
+
+@media all and (min-width: 768px) and (max-width: 959px) {
+    header {
+        width: 100%;
+    }
+    main {
+        width: 100%;
+    }
+    section {
+        width: 100%;
+    }
+    h1 {
+        width: 100%;
+    }
+    .para-title {
+        width: 100%;
+    }
+    .last-para {
+        width: 100%;
+    }
+    p {
+        width: 100%;
+    }
+    img {
+        width: 100%;
+    }
+}
+
+
+/* Smartphone View */
+
+@media all and (max-width: 767px) {
+    img {
+        width: 100%;
+    }
+    header {
+        width: 100%;
+    }
+    main {
+        width: 100%;
+    }
+    section {
+        width: 100%;
+    }
+    h1 {
+        width: 100%;
+    }
+    .para-title {
+        width: 100%;
+    }
+    .last-para {
+        width: 100%;
+    }
+    p {
+        width: 100%;
+    }
+    img {
+        width: 100%;
+    }
+    p {
+        margin: 0px;
+        padding: 0px;
+        color: #393939;
+        font-size: 1.0rem;
+        margin-bottom: 5px;
+        /* padding-right:150px; */
+    }
+}
+    body{
+        margin:0px;
+        padding:0px;
+    }
+    main{
+        font-family: sans-serif, 'Franklin Gothic Medium', Arial, 'Arial Narrow'; 
+        font-size: 14px;
+        padding:20px;
+    }
+    header .logo{
+        font-weight:600;
+        display: flex;
+        flex-direction:column; 
         }
         header .logo .name{
             background: blue;
-            padding: 12px 15px;
+            padding: 5px 5px 7px 5px;
             text-decoration: none;
             color: white;
-            font-size:1.5rem;
-            border-top-left-radius: 10px;
-            border-top-right-radius: 10px;
+            font-size:2.0rem;
             font-family: Arial, Helvetica, sans-serif;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            text-transform:uppercase;    
+            text-align:center;
+        }
+        header .logo p{
+            background: lightskyblue;
+            text-decoration: none;
+            color:#0000ff;
+            font-size:1.2rem;
+            border:1px solid #0000ff;
+            text-transform:capitalize;    
+            text-align:center;
+            font-weight:300;
+            padding:5px 5px;
+            margin-top:0px;
+        }
+    
+    h1{
+        color:#ff00ff;
+        margin:0px;
+        padding:0px;
+        font-size:1.7rem;
+    }
+    h2{
+        color:#ff00ff;
+        margin:0px;
+        padding:0px;
+        font-size:1.1rem;
+    }
+    img{
+        margin:0px;
+        padding:0px;
+        text-align:center;
+        width:70%;
+        /* margin-top:10px; */
+        /* margin-bottom:10px; */
+    }
+    header{ 
+        margin-top:5px;
+        padding:20px;
+        display:flex;
+    }
+    .para-title{
+        margin:0px;
+        padding:0px;
+        color:#0000ff;
+        font-size:1.0rem;
+        margin-bottom:5px;
+    }
+    p{
+        margin:0px;
+        padding:0px;
+        color:#393939;
+        font-size:1.0rem;
+        margin-bottom:5px;
+        padding-right:150px;
+    }
+    .para-last{
+        margin-bottom:30px;
+    }
+    a{
+        color:#0000ff;
+        text-decoration:none;
+    }
+    .section-1{
+        padding:10px; 
+        border:1px solid #494949; 
+        border-radius:10px; margin-top:20px; margin-bottom:20px;
+        padding:20px; 
+        background-color:#E6E6FA;
+    }
+    .section-2{
+        padding:10px;
+        margin-top:50px; margin-bottom:50px;
+        padding:20px; 
+    }
+    .section-3{
+        padding:10px; 
+        border:1px solid #494949; 
+        border-radius:10px; margin-top:20px; margin-bottom:20px;
+        padding:20px; 
+        background-color:mintcream;
+    }
+
+            /* Tablet View */
+        @media all and (min-width: 768px) and (max-width: 959px){
+        header{
+            width:100%;
         }
         main{
-            font-family:Arial, Helvetica, sans-serif; 
-            font-size:16px; 
-            padding:20px; 
-            font-weight:100;
-            /* width:0 90%; */
+            width:100%;
         }
-        .section-middle{ 
-            margin:0px; 
-            padding:20px 20px; 
-            margin-top:50px; 
-            margin-bottom:20px;
+        section{
+            width:100%;
         }
-        .section{
-            padding:30px; 
-            border:1px solid #494949; 
-            border-radius:10px; 
-            margin-top:50px; 
-            margin-bottom:50px; 
-            background-color:mintcream;
+        h1{
+            width:100%;
+        }
+        .para-title{
+            width:100%;
+        }
+        .last-para{
+            width:100%;
+        }
+        p{
+            width:100%;
         }
         img{
-            margin-top:30px;
-            margin-bottom:30px;
+            width:100%;
         }
+    }
+        /* Smartphone View */
+        @media all and (max-width: 767px){
         
-                /* Tablet View */
-            @media all and (min-width: 768px) and (max-width: 959px){
-            header{
-                width:100%;
-            }
-            main{
-                width:100%;
-            }
-            section{
-                width:100%;
-            }
-            h1{
-                width:100%;
-            }
-            .para-title{
-                width:100%;
-            }
-            .last-para{
-                width:100%;
-            }
-            p{
-                width:100%;
-            }
-            img{
-                width:100%;
-            }
+    img{
+        width:100%;
+    }
+        header{
+            width:100%;
         }
-            /* Smartphone View */
-            @media all and (max-width: 767px){
-            header{
-                width:100%;
-            }
-            main{
-                width:100%;
-            }
-            section{
-                width:100%;
-            }
-            h1{
-                width:100%;
-            }
-            .para-title{
-                width:100%;
-            }
-            .last-para{
-                width:100%;
-            }
-            p{
-                width:100%;
-            }
-            img{
-                width:100%;
-            }
-        }     
+        main{
+            width:100%;
+        }
+        section{
+            width:100%;
+        }
+        h1{
+            width:100%;
+        }
+        .para-title{
+            width:100%;
+        }
+        .last-para{
+            width:100%;
+        }
+        p{
+            width:100%;
+        }
+        img{
+            width:100%;
+        }
+        p{
+            margin:0px;
+            padding:0px;
+            color:#393939;
+            font-size:1.0rem;
+            margin-bottom:5px;
+            /* padding-right:150px; */
+        }
+    } 
+
     </style>
 </head>
 
@@ -200,7 +420,10 @@
                 In plain english ... What is Web Accessibility?
             </p>
             <p class="first-para">
-            The simple answer for Web Accessibility is that all internet content should be built in a way that allows everybody to physically and mentally use it. The simple reason for Web Accessibility is that the web content is vital and critical to maintaining people's everyday lives! In today's world, the internet is a fountain of life-sustaining information that everybody drinks from in order to survive. 
+            The simple answer for Web Accessibility is that all internet content should be built in a way that allows everybody to physically and mentally use it. The simple reason for Web Accessibility is that the web content is vital and critical to maintaining people's everyday lives! In today's world, the internet is a fountain of vital and life-sustaining information that everybody drinks from. 
+            </p>
+            <p>
+            This is the 1st post i am writing for an ongoing blog series called: "Let's talk Web Accessibility". This series is designed to be an investigative report and a brief tutorial about the evolving tech industry of app and web accessibility. It is a market of over 1 billion people with 6 trillion dollars in spending power. ok ... did i just get your attention ??
             </p>
             <p>
             This blog post is my first article, of many to come, which will document the progress of who, what, where, why and when this huge unprecedented problem will be resolved ..... or not resolved! This blog series is my way of addressing a new and growing problem inside the old "information-digital-divide". This series is my humble attempt to become somewhat of an authority on an issue that sincerely humbles me. 
@@ -221,10 +444,10 @@
                 In plain english ... Why is Web Accessibility Important ??
             </p>
             <p class="first-para">
-            Let's first explain the basics of what it is and why it keeps being discussed. Web Accessibility increases everyone's ability to have access to important information and critical data needed to manage their day to day activities. Unfortunately, many people are not able to physically search and retrieve content because of the way the software programs have been built. 
+            Let's first explain the basics of what it is and why it keeps being discussed. Web Accessibility increases everyone's ability to have access to important information and critical data needed to manage their day to day activities. Unfortunately, many people are not able to physically search and retrieve content because of the way the software programs have been coded and built. 
             </p>
             <p class="last-para">
-            Today, we are in New Times and New Waters with aids like screen readers and other assistive technologies. Some of the <span><a href="#">physical and mental disabilities</a></span> that people live with are blindness/braille, sign language, deaf/hearing impaired, mental cognitive disabilities, and media in the form of print, visual, or audio that is difficult to access.
+            Today, we are in new waters with aids like screen readers and other assistive technologies. Some of the <span><a href="#">physical and mental disabilities</a></span> that people live with are blindness/braille, sign language, deaf/hearing impaired, mental cognitive disabilities, and media that is difficult to access found in the form of print, visual, and audio .
             </p>     
             <div style="text-align:center;">
                 <img src="/images/TN-W3C-WAI-311x162.jpg"
@@ -237,10 +460,10 @@
             </p>
             <!-- <p style="padding-left:100px; padding-right:100px;"> -->
             <p class="first-para">
-            Most of us socialize around somebody who lives with handicaps or disabilities. However, many people who do not fit the common profiles still have <span><a href="#">similar internet access difficuties</a></span> because of physical injuries, mental injuries, illnesses, car accidents, strokes, heart attacks, diseases, arthritis, wrist/hand/arm impairments, visual or audio injuries, etc.
+            Most of us socialize around people everyday who live with handicaps or disabilities. However, many people who do not fit the common stereotypes of "handicapped or disabiled" still suffer <span><a href="#">internet access difficuties</a></span>. Those people are handicapped because of physical injuries, mental injuries (concussions, etc), illnesses, car accidents, strokes, heart attacks, diseases, arthritis, wrist/hand/arm impairments, visual or audio injuries, etc.
             </p>
             <p>
-                Its a Brave New World out here folks! In a split second, anything can happen to any of us, at any time to disable or handicap your ability to access vital and critical web content.
+                Its a Brave New World out here folks! In a split second, anything can happen to any of you, at any time to disable or handicap your ability to access vital and critical web content. As you may be beginning to see ... we are all in this "internet thingy" together. What effects you effects me!
             </p>
             <div style="text-align:center;">
                 <img src="/images/FOUR-DIABILITIES-1000X260.png"
